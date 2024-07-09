@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <MainView />
     </v-main>
 
-    <AppFooter />
+    <Footer />
   </v-app>
 </template>
 
