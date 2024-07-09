@@ -1,13 +1,10 @@
 <template>
   <v-app>
-    <v-main>
-      <MainView />
-    </v-main>
-
+    <MainView />
     <Footer />
   </v-app>
 </template>
 
 <script setup>
-  //
+//
 </script>
