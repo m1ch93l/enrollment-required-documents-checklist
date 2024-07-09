@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name FROM crud"; // Adjust the query according to your table structure
+$sql = "SELECT id, name, o_psa, o_f138, o_f137, p_gmc, p_coc, pic, esc FROM crud"; // Adjust the query according to your table structure
 $stmt = $conn->prepare($sql);
 
 if ($stmt) {
