@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     getStudents() {
-      axios.get('http://localhost/crud-vue-php/src/crud/fetch.php').then(res => {
+      axios.get('http://localhost/enrollment-required-documents-checklist/src/crud/fetch-data.php').then(res => {
         this.students = res.data;
       });
     }
