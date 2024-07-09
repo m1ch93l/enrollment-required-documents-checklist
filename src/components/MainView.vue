@@ -18,14 +18,14 @@ export default {
       students: [],
       headers: [
         { title: '#', value: 'id' },
-        { title: 'Name', value: 'name' },
-        { title: 'Original copy of PSA/Birth Certificate', value: 'o_psa' },
-        { title: 'Original copy of F138', value: 'o_f138' },
-        { title: 'Original copy of F137 (School-to-school)', value: 'o_f137' },
-        { title: 'Photocopy of Good Moral Certificate', value: 'p_gmc' },
-        { title: 'Photocopy of Certificate of Completion', value: 'p_coc' },
-        { title: 'Pictures (2x2 & 1x1)', value: 'pic' },
-        { title: 'ESC (only for Private School)', value: 'esc' },
+        { title: 'Name', value: 'name', align: 'center' },
+        { title: 'Original copy of PSA/Birth Certificate', value: 'o_psa', align: 'center' },
+        { title: 'Original copy of F138', value: 'o_f138', align: 'center' },
+        { title: 'Original copy of F137 (School-to-school)', value: 'o_f137', align: 'center' },
+        { title: 'Photocopy of Good Moral Certificate', value: 'p_gmc', align: 'center' },
+        { title: 'Photocopy of Certificate of Completion', value: 'p_coc', align: 'center' },
+        { title: 'Pictures (2x2 & 1x1)', value: 'pic', align: 'center' },
+        { title: 'ESC (only for Private School)', value: 'esc', align: 'center' },
       ]
     }
   },
